@@ -1,1 +1,1 @@
-{"mediaBucket": "None", "staticBucket":"None", "cognitoIdentityPool":""}
+{"mediaBucket": "arn:aws:s3:::subtitle.media.valkyrie.aws.com", "staticBucket":"arn:aws:s3:::subtitle.static.valkyrie.aws.com", "cognitoIdentityPool":"us-east-1:9268a4fe-5160-4dd4-ab36-d5b17313e2f2"}
