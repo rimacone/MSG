@@ -29,16 +29,16 @@
 
           <div class="jumbotron">
             <div class="container">
-              <h1 class="display-6 text-success">Serverless Subtitles <i class="far fa-comment-dots"></i></h1>
+              <h1 class="display-6 text-success">Multilingual Subtitle Generator </h1>
               <p class="lead">
-                This is a simple service to generate subtitle from a video in another language
+                Subtitle Generation using Amazon Transcribe and Amazon Translate
                 <a href="#" id="toggleConstraints"> <i class="fas fa-caret-down text-success"></i> </a>
               </p>
               <div id="constraints" class="d-none">
                 Constraints :
                 <ul>
                   <li> MP4 only </li>
-                  <li> English spoking only </li>
+                  <li> Input video should be in English </li>
                   <li> Maximum of 150Mb </li>
                   <li> Maximum of 2 concurrent workers (or whatever is your limit in AWS transcribe)</li>
                 </ul>
@@ -66,11 +66,6 @@
             </div>
 
           </div>
-
-          <div class="text-center text-white">
-            <small>&copy; 2018</small> <i class="fab fa-aws"></i>
-          </div>
-
         </div>
         <div class="col-8 jumbotron">
           <div id="video" class="text-center">
